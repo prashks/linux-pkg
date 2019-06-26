@@ -16,10 +16,12 @@
 #
 # shellcheck disable=SC2034
 
-DEFAULT_PACKAGE_GIT_URL="https://github.com/delphix/omnibus-td-agent.git"
+#DEFAULT_PACKAGE_GIT_URL="https://github.com/delphix/omnibus-td-agent.git"
+DEFAULT_PACKAGE_GIT_URL="https://github.com/prashks/omnibus-td-agent.git"
+DEFAULT_PACKAGE_GIT_BRANCH=dlpx-62965-lx-1789
 
-# We're customizing td-agent version 3.4.0
-DEFAULT_PACKAGE_VERSION=3.4.0
+# We're customizing td-agent version 3.4.1
+DEFAULT_PACKAGE_VERSION=3.4.1
 
 UPSTREAM_GIT_URL=https://github.com/treasure-data/omnibus-td-agent.git
 UPSTREAM_GIT_BRANCH=master
